@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selector</title>
+    <style>
+      h1 {
+        /* this how we use RGB colouring method to style our text it has three values RED GREEN AND BLUE all of these value varies from 0-255*/
+        color: rgb(100, 100, 100);
+      }
+      .heading {
+        /* this is same as RGB but with an additional feature of opacity the value of it variens between 0-1 */
+        color: rgba(150, 150, 150, 0.8);
+      }
+      #heading {
+        /* this the Hexa styling method for colouring it starts with # */
+        color: #c32121;
+      }
+      h4,
+      h5 {
+        /* HSL - hue saturation lightness the values in it is determined by percentages and it varies from 0-255 */
+        color: hsl(100, 61%, 32%);
+      }
+      * {
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Heading one</h1>
+    <h2 class="heading">Heading second</h2>
+    <h3 id="heading">heading three</h3>
+    <h4>heading four</h4>
+    <h5>heading five</h5>
+    <h6>heading six</h6>
+  </body>
+</html>

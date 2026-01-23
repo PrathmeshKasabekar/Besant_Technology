@@ -1,0 +1,14 @@
+h1 {
+  color: blue;
+}
+label {
+  font-weight: bold;
+}
+legend {
+  font-size: 1.2em;
+  color: green;
+}
+fieldset {
+  border: 2px solid green;
+  padding: 10px;
+}

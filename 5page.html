@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML forms</title>
+    <link rel="stylesheet" href="style.css" /> <!--link tag is used to link external CSS file to the HTML document, rel attribute specifies the relationship between the current document and the linked document, href attribute specifies the path to the CSS file-->
+  </head>
+  <body>
+    <form action="/submit.php"> <!--form tag is used to create an HTML form for user input, action attribute specifies where to send the form data when submitted-->
+      <fieldset> <!--fieldset is used to group related elements in a form-->
+        <legend>Personal Information</legend> <!--legend tag is used for adding the heading to the fieldset-->
+      <h1>Login form</h1> 
+      <label for="user">username</label><br /> <!--for attribute is used to bind the label to the input field-->
+      <input
+        type="text"
+        id="user"
+        name="user"
+        value=""
+        placeholder="username"
+        required
+      /> <!--type is declaring text input type, id is used for binding the label to the input field, name is used for identifying the input field in the form submission, value is used for setting the initial value of the input field, placeholder is used for displaying a hint to the user, required is used to make the input field mandatory-->
+      <br />
+      <label for="Password">Password</label> <br />
+      <input
+        type="password"
+        id="Password"
+        name="Password"
+        value=""
+        placeholder="Password"
+        required
+      /> <br/>
+      <label for="number">Number</label> <br />
+      <input type="number"
+      id="number"
+      name="number"
+      value=""
+      placeholder="number"/>
+      <br />
+      <label for="email">email</label> <br/>
+      <input type="email"
+      id="email"
+      name="email"
+      value=""
+      placeholder="email"/>
+      <br />
+      <label for="gender">Gender</label> <br/>
+      <input type="radio" id="male" name="gender" value="male"/>
+      <label for="male">male</label> <br/>
+      <input type="radio" id="female" name="gender" value="female"/>
+      <label for="female">female</label> <br/>
+      <input type="submit" value="Submit" /> <br/>
+    </form>
+    </fieldset>
+    
+  </body>
+</html>

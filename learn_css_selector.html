@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selector</title>
+    <style>
+      /* this ia an element selector just used to style any specific elements like H1, H2 */
+      h1 {
+        color: green;
+      }
+      /* this are the classes selector used to style through the use of classes like heading starts with . */
+      .heading {
+        color: green;
+      }
+      /*this are the ID selector used to style through the use of - id="" - like id and starts with a # */
+      #heading {
+        color: aqua;
+      }
+      /* we can do styling to multiple elements by mentioning them*/
+      h4,
+      h5 {
+        color: blue;
+      }
+      /* this is universal styling*/
+      * {
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Heading one</h1>
+    <h2 class="heading">Heading second</h2>
+    <h3 id="heading">heading three</h3>
+    <h4>heading four</h4>
+    <h5>heading five</h5>
+  </body>
+</html>
