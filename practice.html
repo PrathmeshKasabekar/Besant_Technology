@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .one{
+            border: solid;
+            margin-left: 100px;
+            margin-top: 100px;
+            margin-right: 1200px;
+            margin-bottom: 10px;
+        }
+        .heading{
+            color: blue;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .login:hover{
+            background-color: rgb(15, 82, 239);
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+    <h1 class="heading">Login Form</h1>
+    <div style=" margin-bottom: 10px;margin-left: 10px;">
+    <label for="user">Username</label><br /> 
+      <input
+        type="text"
+        id="user"
+        name="user"
+        value=""
+        placeholder="username"
+        required
+      />
+        <br/>
+      <label for="Password">Password</label> <br />
+      <input
+        type="password"
+        id="Password"
+        name="Password"
+        value=""
+        placeholder="Password"
+        required
+      />
+      </div>
+      <button class="login" style="margin-left: 10px; margin-bottom: 10px; color: rgb(15, 12, 12)">Login</button>
+    </div>
+</body>
+</html>
