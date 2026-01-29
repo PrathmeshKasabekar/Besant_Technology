@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            position: relative; /* relative should be used for z indexing static doesn't work */
+            top: 200px;
+            z-index:2; /* heigher the number heigher the visiblity if 2 and 3 will be there 3 will be on the top of 2*/
+            width: 300px;
+            height: 500px;
+            background-color: aqua;
+            text-align: center;
+            font-size: 250px;
+        }
+        .two{
+            position: relative;
+            width: 300px;
+            height: 500px;
+            z-index: 1;
+            background-color: rgb(135, 118, 222);
+            text-align: center;
+            font-size: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">1</div>
+    <div class="two">2</div>  
+</body>
+</html>
