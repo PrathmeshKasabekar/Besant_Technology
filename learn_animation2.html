@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .one {
+        position: relative;
+        height: 400px;
+        width: 400px;
+        background-color: yellow;
+        animation-name: anime;
+        animation-duration: 5s;
+      }
+      @keyframes anime {
+        0% {
+          background-color: red;
+          left: 0px;
+          top: 0px;
+        }
+        25% {
+          background-color: rgb(30, 210, 42);
+          left: 400px;
+          top: 0px;
+        }
+        50% {
+          background-color: rgb(31, 28, 184);
+          left: 400px;
+          top: 400px;
+        }
+        75% {
+          background-color: rgb(193, 40, 152);
+          left: 0px;
+          top: 400px;
+        }
+        100% {
+          background-color: rgb(154, 200, 62);
+          left: 0px;
+          top: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nostrum.
+    </div>
+  </body>
+</html>
