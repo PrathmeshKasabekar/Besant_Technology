@@ -4,8 +4,171 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      /* *{
+        max-width: fit-content;
+        box-sizing: border-box;
+      } */
+      .main {
+        display: grid;
+        grid-template-columns: 54% 49%;
+        
+      }
+      .leftmain {
+        background-color: rgb(255, 255, 255);
+        height: 625px;
+        width: 700px;
+        margin-left: 100px;
+        border: 2px solid black;
+      }
+      .img1 {
+        border-radius: 100px;
+        border: 3px solid blue;
+      }
+      .rightmain {
+        text-align: left;
+        border-top: 2px solid black;
+        margin-right: 100px;
+        border-right: 2px solid black;
+      }
+      .photos {
+        display: flex;
+        flex-direction: row;
+        margin-left: 70px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+      .photos1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 70px;
+        margin-bottom: 30px;
+      }
+      .photos2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 70px;
+        margin-bottom: 30px;
+      }
+      .bottom{
+        text-align: center;
+        background-color: rgb(40, 68, 197);
+        display: block;
+        margin-top: 20px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+      }
+      .but:hover{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+      }
+      .but{
+        border-radius: 20px;
+        margin-bottom: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .bottombutton:hover{
+        background-color: blue;
+        color: aliceblue;
+      }
+      .bottombutton{
+        border-radius: 70px;
+        padding-right: 10px ;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+      }
+    </style>
   </head>
   <body>
-    <div class="main"></div>
+    <div class="main">
+      <div class="leftmain">
+        <h1 style="text-align: center">Time to meet our team!</h1>
+        <span class="photos">
+          <img
+            class="img1"
+            src="media/img2.png"
+            alt="photo"
+            height="60px"
+            width="60px"
+          />
+          <p style="margin-left: 10px;"> Alex Carter </br>Chief Executive Officer</p>
+          <img
+            class="img1"
+            src="media/img3.png"
+            alt="photo"
+            height="60px"
+            width="60px"
+            style="margin-left: 75px;"
+          />
+          <p style="margin-left: 10px;"> Ryan Mitchell </br>Managing Director</p>
+        </span>
+                <span class="photos1">
+          <img
+            class="img1"
+            src="media/img4.png"
+            alt="photo"
+            height="60px"
+            width="60px"
+          />
+          <p style="margin-left: 10px;"> Daniel Brooks </br>Product Head, UX Director</p>
+          <img
+            class="img1"
+            src="media/img5.png"
+            alt="photo"
+            height="60px"
+            width="60px"
+            style="margin-left: 50px;"
+          />
+          <p style="margin-left: 10px;"> Ethan Walker </br>Chief Technology Officer</p>
+        </span>
+                <span class="photos2">
+          <img
+            class="img1"
+            src="media/img6.png"
+            alt="photo"
+            height="60px"
+            width="60px"
+          />
+          <p style="margin-left: 10px;"> Lucas Reed </br>Marketing Director</p>
+          <img
+            class="img1"
+            src="media/img7.png"
+            alt="photo"
+            height="60px"
+            width="60px"
+            style="margin-left: 100px;"
+          />
+          <p style="margin-left: 10px;"> Noah Bennett </br>Founder, Design Director</p>
+        </span>
+        <span style="color: blue; font-size: small; text-align: center; margin-left: 300px;">sample stack click solution</span>
+        <span class="bottom">
+          <h6 style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> ADD MORE SPEED TO YOUR WEBSITES</h6>
+          <h4 style="color: white; font-size: 20px; font-family: 'Courier New', Courier, monospace;"> Join Us on the journey to Success</h4>
+          <p style="color: white; font-size: 10px; font-family: 'Courier New', Courier, monospace;">SampleStack success to Test Direction</p>
+          <button class="but">GET A FREE CONSULTATION</button>
+          
+        </span>
+      </div>
+      <div class="rightmain">
+        <p style="margin-left: 5px; font-size: 20px;">Keywords</p>
+        <button class="bottombutton">time</button>
+        <button class="bottombutton">meet</button>
+        <button class="bottombutton">team</button>
+        <button class="bottombutton">join</button>
+        <button class="bottombutton">journey</button><br>
+        <button class="bottombutton">success</button>
+        <button class="bottombutton">business</button>
+        <button class="bottombutton">businessman</button><br>
+        <button class="bottombutton">commercial</button>
+        <button class="bottombutton">company</button>
+        <button class="bottombutton">law</button>
+        <button class="bottombutton">legal</button>
+      </div>
+    </div>
   </body>
 </html>
