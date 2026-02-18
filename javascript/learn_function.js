@@ -1,4 +1,5 @@
 // function declaration
+
 function SayHello() {
   console.log("hi.hello");
 }
