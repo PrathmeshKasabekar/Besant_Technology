@@ -1,6 +1,3 @@
-let arr = ["david", 28, false];
-console.log(arr);
-
 let laptop = {
   name: "HP",
   model: "Victus",
@@ -11,3 +8,14 @@ let laptop = {
 console.log(laptop);
 console.log(laptop.name);
 console.log(laptop["name"]);
+
+let employee = {
+  name: "David",
+};
+console.log(employee);
+
+employee.programming = "javaScript";
+console.log(employee);
+
+employee["id"] = 1234;
+console.log(employee);
