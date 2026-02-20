@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function sayhello() {
+        document.getElementById("hello").innerHTML = "Hello Function";
+      }
+      function over() {
+        document.getElementById("hello").innerHTML = "hover";
+      }
+      function out() {
+        document.getElementById("hello").innerHTML = "out";
+      }
+      function change() {
+        document.getElementById("hello").innerHTML = " on change";
+      }
+      function blur() {
+        document.getElementById("hello").innerHTML = " on blur";
+      }
+    </script>
+  </head>
+  <body>
+    <h6 id="hello"></h6>
+    <input type="text" onchange="change()" onblur="blur()" />
+    <button onclick="sayhello()" onmouseover="over()" onmouseout="out()">
+      submit
+    </button>
+  </body>
+</html>

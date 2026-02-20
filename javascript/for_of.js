@@ -7,3 +7,4 @@ let city = "Bangalore";
 for (let char of city) {
   console.log(char);
 }
+// for_of loop is used to iterated through the string/array

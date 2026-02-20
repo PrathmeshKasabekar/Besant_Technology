@@ -33,5 +33,7 @@ console.log(state + city);
 let str7 = "i am in Bengaluru";
 console.log(str7.includes("Am"));
 
+// the search method used fro searching but it uses indexing method if the vaue will not be present it will give a negative value
+// the indexing starts from 0 not 1 os in bengaluru word the index will be 8 not 9
 let str8 = "i am in Bengaluru";
 console.log(str8.search("Bengaluru"));

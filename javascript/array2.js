@@ -1,13 +1,2 @@
 let arr = ["david", 28, false];
 console.log(arr);
-
-let laptop = {
-  name: "HP",
-  model: "Victus",
-  genration: "13th",
-  color: "blue",
-  price: "75000",
-};
-console.log(laptop);
-console.log(laptop.name);
-console.log(laptop["name"]);
