@@ -1,5 +1,5 @@
 function isAnagram(str1, str2) {
-  const normalize = str;
+  const normalize = (str) => str.toLowerCase();
 
   const s1 = normalize(str1);
   const s2 = normalize(str2);
